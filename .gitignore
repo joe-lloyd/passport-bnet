@@ -8,3 +8,9 @@ npm-debug.log
 stunnel*
 
 qualimetry/
+
+.cache
+
+dist
+
+.env

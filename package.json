@@ -26,7 +26,8 @@
     "test": "mocha test/**/*.js",
     "lint": "eslint src/",
     "lint-fix": "eslint src/ --fix",
-    "qualimetry": "istanbul cover _mocha --dir qualimetry/cover -- -R spec test/*"
+    "qualimetry": "istanbul cover _mocha --dir qualimetry/cover -- -R spec test/*",
+    "start": "nodemon ./examples/express/app.js"
   },
   "dependencies": {
     "passport-oauth2": "^1.4.0"

@@ -65,7 +65,7 @@ function getHost (region) {
  */
 function Strategy (options, verify) {
   options = options || {}
-  options.region = options.region || 'us'
+  options.region = options.region || 'eu'
   options.authorizationURL = options.authorizationURL || 'https://' + getHost(options.region) + '/oauth/authorize'
   options.tokenURL = options.tokenURL || 'https://' + getHost(options.region) + '/oauth/token'
   options.scopeSeparator = options.scopeSeparator || ' '
